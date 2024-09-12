@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import { FormEvents } from './components/form-events/FormEvents';
+import { FormObject } from './components/form-events/FormObject';
+import MouseEvent from './components/mouse-events/MouseEvent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FormEvents /> */}
+      {/* <FormObject /> */}
+      <MouseEvent />
     </div>
   );
 }
